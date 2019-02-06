@@ -314,7 +314,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-size: 82px;
     font-weight: 600;
     text-transform: uppercase;
-    
+    /* font-size: 24px; */
     font-weight: 600;
     text-transform: uppercase;
     color: ivory;
@@ -1135,6 +1135,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	transition: transform .6s ease-out,opacity .6s ease-out;
 }
 
+.hoverIcon:hover{
+    transform: scale(1.1);
+}
+
 .scrollimation.fade-right.in{
 	opacity:1;
 	-webkit-transform: translateX(0px);
@@ -1229,6 +1233,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
+}
+.fade-up{
+    transition: transform 1s;
 }
 
 /*----------------------
