@@ -483,6 +483,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 4px 22px -2px grey;
 }
 
 #portfolio::before {
@@ -493,12 +494,14 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     top: 0;
     left: 0;
     background-color: white;
-    background: url('../images/bg-portfolio.jpg') no-repeat center center;
-    background-size: cover;
+    /* background: url('../images/backgroundApplications.jpg') no-repeat center center;
+    background-size: cover; */
     will-change: transform; 
     z-index: -9999999;
 }
-
+#project-content{
+    color: black;
+}
 .touch #portfolio{
     background:#1F2C37;
 }
@@ -562,7 +565,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #filter-works ul li.active a,
 #filter-works ul li:hover a{
-    color:#509B9E;
+    color: #1C2730;
+    font-size: 5rem;
+    font-weight: 600;
+    text-shadow: 2px 3px 8px grey;
 }
 
 .masonry-wrapper{
