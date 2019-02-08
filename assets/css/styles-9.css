@@ -9,7 +9,9 @@ body{
     color:#6d6d6d;
 	overflow-x:hidden;
 }
-
+.touch #portfolio {
+    background: white;
+}
 a{
 	color:#F28C83;
 	text-decoration:none
@@ -1377,10 +1379,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
     #home h1{
         margin: 0;
-        font-size: 82px;
+        font-size: 58px;
         font-weight: 600;
         text-transform: uppercase;
-        /* font-size: 42px; */
+        
         color: ivory;
         text-shadow: 0px 0px 7px #FF4B13;
     }
@@ -1478,4 +1480,24 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .belowImageTwo{
     background-image: url("../images/diving2.JPG");
+}
+
+
+@media screen and (orientation: portrait){
+    .icon > img {
+        width: 40%;
+        vertical-align: middle;
+        font-weight: 600;
+    }
+    .touch #portfolio {
+        background: white;
+    }
+    #filter-works ul li.active a,
+#filter-works ul li:hover a{
+    color: #1C2730;
+    font-size: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 3px 8px grey;
+}
 }
