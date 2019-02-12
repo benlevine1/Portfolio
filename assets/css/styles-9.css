@@ -585,6 +585,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 #projects-container .project-item{
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
     display:block;
     position:relative;
     margin:0;
@@ -624,7 +626,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transform: scale(1);
     -webkit-transition:none;
     transition:none;
-	-webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-top: 1px solid black;
 }
 
 .project-item:hover img {
@@ -632,9 +635,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transform: scale(1.6);
     -webkit-transition:-webkit-transform 4s ease-in;
     transition:transform 4s linear;
+    
 }
 
-
+.beerRouletteImage{
+    height: 200px;
+}
 .project-item .hover-mask {
     position:absolute;
     padding:0;
@@ -642,7 +648,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     height:100%;
     top:0;
     left:0;
-    background:#509B9E;
+    background:lightgray;
     opacity: 0;
     filter:alpha(opacity=0);
     -webkit-transition:all 0.3s ease-out;
@@ -655,18 +661,18 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .project-item .hover-mask .project-title {
-    color:#fff;
-    margin:90px 0 0;
-    padding:10px;
-    font-size:26px;
-    line-height:34px;
-    font-weight:400;
-    text-align:center;
+    color: #fff;
+    /* margin: 90px 0 0; */
+    padding: 10px;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: center;
     opacity: 0;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
-    -webkit-transition:all 0.5s ease-out;
-    transition:all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .project-item:hover .hover-mask .project-title {
@@ -1284,9 +1290,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         margin-bottom: 20px;
     }
     
-    .project-item .hover-mask .project-title {
-        margin-top:75px;
-    }
+    
     
     #project-slider{
         min-height:0;
