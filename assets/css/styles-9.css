@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .border-top-color2{
-    border-top:7px solid #F28C83;
+    border-top:7px solid #F51;
 }
 
 .color1 .service-icon,
@@ -122,7 +122,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     font-size: 21px;
     font-weight: 300;
-    background:#F28C83;
+    background:#F51;
     outline: none !important;
     border-radius: 0;
     transition: opacity .2s ease-out;
@@ -567,10 +567,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #filter-works ul li.active a,
 #filter-works ul li:hover a{
-    color: #1C2730;
-    font-size: 5rem;
-    font-weight: 600;
-    text-shadow: 2px 3px 8px grey;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    word-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgb(109, 109, 109);
 }
 
 .masonry-wrapper{
