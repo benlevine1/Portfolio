@@ -958,8 +958,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #contact-form .form-control {
     background:transparent !important;
-    border:none;
-    border-bottom:3px solid transparent;
+    border: 1px solid gray;
+    /* border-bottom: 3px solid transparent; */
     border-radius:0;
     outline:none;
     box-shadow:none;
@@ -971,6 +971,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     -webkit-transition:border-color .3s ease-out;
     transition:border-color .3s ease-out;
     border-radius:2px;
+}
+.aboutMeP{
+    color: #1C2730;
 }
 
 #contact-form .form-group{
