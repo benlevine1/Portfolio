@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .bg-color2{
     color:#fff;
-    background:darkgray;
+    background:lightblue;
 }
 
 .bg-color3{
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .border-top-color2{
-    border-top:7px solid #F51;
+    border-top:7px solid darkblue;
 }
 
 .color1 .service-icon,
@@ -200,7 +200,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     display: inline-block;
     font-size:24px;
     font-weight:700;
-    color: ##F51;
+    color: darkblue;
     text-transform: uppercase;
 }
 
@@ -212,7 +212,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-size:30px;
     line-height:30px;
     font-weight:normal;
-    color:#F51;
+    color:darkblue;
 }
 
 .navbar-brand img{
@@ -268,7 +268,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     line-height:54px;
     font-weight:400;
     background:transparent;
-    color:#F51;
+    color:darkblue;
     transition: color .2s ease-in;
 }
 
@@ -286,7 +286,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #main-nav.scrolled .nav li.active a,
 #main-nav.scrolled .nav a:hover{
-    color: #F51;
+    color:darkblue;
 }
 
 /*-----------------------
@@ -316,7 +316,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
         font-weight: 600;
         text-transform: uppercase;
         color: ivory;
-        text-shadow: 0px 0px 7px #FF4B13;
+        text-shadow: 0px 0px 7px rgb(17, 104, 216);
 }
 
 #home h1{
@@ -328,7 +328,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     font-weight: 600;
     text-transform: uppercase;
     color: ivory;
-    text-shadow: 0px 0px 7px #FF4B13;
+    text-shadow: 0px 0px 7px rgb(17, 104, 216);
 }
 
 #home h1 + p{
