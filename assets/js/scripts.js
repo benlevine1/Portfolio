@@ -17,7 +17,7 @@ $(document).ready(function() {
 	
 	$('#home').height($(window).height()+50);
 	
-	$.backstretch('assets/images/ocean_background.jpg');
+	$.backstretch('assets/images/shore_break.jpg');
 	
 	if($(window).scrollTop() > ($(window).height()+50)){
 		$('.backstretch').hide();
